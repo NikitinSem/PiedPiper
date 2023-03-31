@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1110px;
+}
+
+.container > h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #007765;
+    height: 84px;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 0 55px;
+    flex-wrap: wrap;
+}
+
+nav span {
+    margin: 0 4px;
+}
+
+nav img {
+    height: 45px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    justify-content: space-around;
+}
+
+ul>li a {
+    text-decoration: none;
+}
+
+ul>li a:hover {
+    text-decoration: underline;
+}
+
+header, 
+.promo,
+.problem,
+.hero,
+.intro,
+.team,
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.promo {
+    display: flex;
+    background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/PDaTSuJ/videoblocks-plexus-abstract-network-titles-technology-science-background-loop_bvhyr060e_thumbnail-1080_01.png);
+    color: #EEEEEE;
+    height: 403px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    font: medium;
+    font-size:xx-large;
+}
+
+.promo h1 {
+    display: flex;
+    line-height: 83px;
+    justify-content: center;
+    font-size: 72px;
+}
+
+.promo .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.problem {
+    height: 719px;
+}
+
+.container > h2 {
+    color: #007765;
+    line-height: 75px;
+    font-size: 63px;
+    margin-top: 48px;
+}
+
+.container p {
+    font-size: 32px;
+    margin: 12px 0;
+}
+
+.hero {
+    display: flex;
+    height: 483px;
+    background-image: url(images/hero.svg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .container p {
+    color: #ffffff;
+    font-size: 48px;
+    font-style: italic;
+    max-width: 893px;
+}
+
+.intro .container > p {
+    margin-top: 40px;
+}
+
+.intro > .container > div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    height: fit-content;
+}
+
+.intro > .container > div > img {
+    height: fit-content;
+}
+
+.intro > .container > div > p {
+    margin-left: 45px;
+}
+
+.intro > .container > p:last-child {
+    margin-bottom: 90px;
+}
+
+.team {
+    background-color: rgba(90, 90, 90, 0.192);
+}
+
+.member {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 94px;
+}
+
+.member > figure {
+    /* min-width: 33%; */
+    text-align: center;
+    margin: 0 auto;
+    margin: 24px 91px;
+}
+
+footer {
+    height: 176px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+footer > .container {
+    display: flex;
+    justify-content: center;
+}
+
+footer > .container > p {
+    margin: 0 auto;
+    max-width: 540px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+}
